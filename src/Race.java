@@ -1,5 +1,27 @@
 /**
- * Created by LoganGillespie on 3/5/14.
+ * Enumeration representing the types of characters we might find in a fantasy
+ * game.
+ * @author  William Kreahling
+ *
+ * NO other comments on purpose
  */
-public class Race {
+public enum Race {
+    HUMAN("Human"),
+    ELF("Elf"),
+    DRAGONBORN("Dragonborn"),
+    DWARF("Dwarf"),
+    HALFLING("Halfling"),
+    TIEFLING("Tiefling");
+
+    private final String race;
+
+    private Race (String race) {
+        this.race = race;
+    }
+
+    @Override
+    public String toString() {
+        return race;
+    }
+
 }
