@@ -38,6 +38,7 @@ public class SpellBook implements Comparable<SpellBook> {
     @Override
     public boolean compareTo(SpellBook) {
 
+
     }
 
 }
