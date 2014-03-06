@@ -3,10 +3,7 @@
  * @version 1.1
  */
 public class Wizard extends Adventurer {
-
-
-    SpellBook sb;
-
+    private SpellBook sb;
 
     public Wizard() {
         super(null, -1, null, -1, -1);

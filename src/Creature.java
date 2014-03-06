@@ -3,10 +3,10 @@
  * Version 1.1
  */
 public class Creature {
-    public String name;
-    public int points;
-    public Race race;
-    public int level;
+    protected String name;
+    protected int points;
+    protected Race race;
+    protected int level;
 
 
     public Creature(String name, int points, Race r, int level) {

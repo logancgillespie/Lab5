@@ -3,7 +3,7 @@
  * @version 1.1
  */
 public class Adventurer extends Creature {
-    public int armor;
+    protected int armor;
 
     public Adventurer() {
         super(null, -1, null, -1);

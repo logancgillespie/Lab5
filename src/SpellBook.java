@@ -9,7 +9,11 @@ public class SpellBook implements Comparable<SpellBook> {
 
     @Override
     public int compareTo(SpellBook o) {
+        if (o.numSpells == numSpells) {
+            return 1;
+        }
         return 0;
+
     }
 
 

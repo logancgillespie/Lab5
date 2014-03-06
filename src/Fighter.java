@@ -3,7 +3,7 @@
  * @version 1.1
  */
 public class Fighter extends Adventurer {
-    Sword sw;
+    private Sword sw;
 
 
     public Fighter() {
