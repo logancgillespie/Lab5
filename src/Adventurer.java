@@ -24,9 +24,7 @@ public class Adventurer extends Creature{
             if (this.name.equals(o.name)){
                 return true;
             }
-
         }
-
         return false;
     }
 

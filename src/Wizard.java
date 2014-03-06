@@ -4,7 +4,15 @@
 public class Wizard extends Adventurer {
 
 
+    SpellBook sb = new SpellBook() {
+        @Override
+        public int compareTo(SpellBook o) {
+            return 0;
+        }
+    }
+
     public Wizard(){
+
 
     }
 }
