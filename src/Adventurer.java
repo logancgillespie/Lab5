@@ -4,6 +4,11 @@
 public class Adventurer extends Creature{
     public int armor;
 
+    public Adventurer() {
+        super(null, -1, null, -1);
+        armor = -1;
+    }
+
     public Adventurer(String name, int points, Race r, int level, int armor){
         super(name,points,r,level);
         this.armor = armor;
@@ -36,28 +41,7 @@ public class Adventurer extends Creature{
         this.armor = armor;
     }
 
-    public void setName(String name){
-        super.setName(name);
-    }
 
-    public void setPoints(int points){
-        super.setPoints(points);
-    }
-
-    public void setLevel(int level){
-         super.setLevel(level);
-    }
-    public String getName(){
-        return super.getName();
-    }
-
-    public int getPoints(){
-        return super.getPoints();
-    }
-
-    public int getLevel(){
-        return super.getLevel();
-    }
 
     
 }

@@ -19,6 +19,10 @@ public class SpellBook implements Comparable<SpellBook> {
         numSpells--;
     }
 
+    public int getNumSpells() {
+        return numSpells;
+    }
+
     @Override
     public String toString() {
         String result = "";

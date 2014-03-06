@@ -18,9 +18,9 @@ public class Creature {
 
     public Creature() {
         this.name = null;
-        this.points = 0;
+        this.points = -1;
         race = null;
-        this.level = 0;
+        this.level = -1;
     }
 
     public void setName(String name) {
