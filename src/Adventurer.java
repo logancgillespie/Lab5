@@ -17,7 +17,7 @@ public class Adventurer extends Creature{
     @Override
     public String toString(){
         String s = "";
-        s+="Adventurer name " + name + " points " + points + " race " + r + " level " + " armor" +
+        s += "Adventurer name " + name + " points " + points + " race " + race + " level " + " armor" +
                 " level" + armor;
         return s;
     }

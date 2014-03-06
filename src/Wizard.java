@@ -4,7 +4,7 @@
 public class Wizard extends Adventurer {
 
 
-    SpellBook sb = new SpellBook();
+    SpellBook sb;
 
 
     public Wizard(){
@@ -33,5 +33,13 @@ public class Wizard extends Adventurer {
             }
         }
         return false;
+    }
+
+    @Override
+    public String toString() {
+        String s = "";
+        s += "Wizard name " + name + " points " + points + " race " + race + " level " + level + " armor" +
+                +armor + " spells " + sb;
+        return s;
     }
 }
