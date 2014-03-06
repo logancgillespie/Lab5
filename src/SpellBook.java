@@ -6,6 +6,12 @@ public class SpellBook implements Comparable<SpellBook> {
     private Spell[] list;
     private int  numSpells;
 
+    @Override
+    public int compareTo(SpellBook o) {
+        return 0;
+    }
+
+
     public SpellBook() {
         list        = new Spell[10];
         numSpells   = 0;
@@ -35,10 +41,5 @@ public class SpellBook implements Comparable<SpellBook> {
         return result;
     }
 
-    @Override
-    public boolean compareTo(SpellBook) {
-
-
     }
 
-}
