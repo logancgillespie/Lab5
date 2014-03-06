@@ -41,10 +41,10 @@ public class Driver {
                 System.out.println("-----------------------------");
 
                 if (players.get(i).equals(players.get(j))) {
-                    System.out.println(  players.get(i) + "\n\tIS EQUAL TO\n"
+                    System.out.println(players.get(i) + "\n\tIS EQUAL TO\n"
                             + players.get(j));
                 } else {
-                    System.out.print(  players.get(i) + "\n\tIS NOT EQUAL");
+                    System.out.print(players.get(i) + "\n\tIS NOT EQUAL");
                     System.out.println(" TO\n" + players.get(j));
                 }
                 System.out.print("------------------------------------------");

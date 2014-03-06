@@ -1,10 +1,11 @@
 /**
  * Note this book holds 10 spells only!
+ * Modified March 6, 2014 by Logan Gillespie and Matt Anger
  */
 
 public class SpellBook implements Comparable<SpellBook> {
     private Spell[] list;
-    private int  numSpells;
+    private int numSpells;
 
     @Override
     public int compareTo(SpellBook o) {
@@ -13,8 +14,8 @@ public class SpellBook implements Comparable<SpellBook> {
 
 
     public SpellBook() {
-        list        = new Spell[10];
-        numSpells   = 0;
+        list = new Spell[10];
+        numSpells = 0;
     }
 
     public void add(Spell spell) {
@@ -41,5 +42,5 @@ public class SpellBook implements Comparable<SpellBook> {
         return result;
     }
 
-    }
+}
 

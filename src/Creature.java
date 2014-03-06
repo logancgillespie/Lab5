@@ -1,5 +1,6 @@
 /**
- * Created by LoganGillespie on 3/5/14.
+ * By Logan Gillespie and Matt Anger
+ * Version 1.1
  */
 public class Creature {
     public String name;
@@ -65,8 +66,7 @@ public class Creature {
     @Override
     public String toString() {
         String s;
-        s = "Creature is " + name + " with points " + points + " in race " + race + " on level " +
-                level;
+        s = "Name = " + name + ", " + "Hit points = " + points + ".";
         return s;
 
     }

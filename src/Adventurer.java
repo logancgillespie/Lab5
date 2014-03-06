@@ -1,7 +1,8 @@
 /**
- * Created by LoganGillespie on 3/5/14.
+ * @author Logan Gillespie and Matt Anger
+ * @version 1.1
  */
-public class Adventurer extends Creature{
+public class Adventurer extends Creature {
     public int armor;
 
     public Adventurer() {
@@ -9,24 +10,23 @@ public class Adventurer extends Creature{
         armor = -1;
     }
 
-    public Adventurer(String name, int points, Race r, int level, int armor){
-        super(name,points,r,level);
+    public Adventurer(String name, int points, Race r, int level, int armor) {
+        super(name, points, r, level);
         this.armor = armor;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         String s = "";
-        s += "Adventurer name " + name + " points " + points + " race " + race + " level " + " armor" +
-                " level" + armor;
+        s += "Name = " + name + "," + " Hit points " + points + "," + " armor Class = " + armor + ".";
         return s;
     }
 
     @Override
-    public boolean equals(Object c){
-        if (c instanceof Adventurer){
+    public boolean equals(Object c) {
+        if (c instanceof Adventurer) {
             Adventurer o = (Adventurer) c;
-            if (this.name.equals(o.name)){
+            if (this.name.equals(o.name)) {
                 return true;
             }
         }
@@ -34,7 +34,7 @@ public class Adventurer extends Creature{
     }
 
     public int getArmor() {
-       return armor;
+        return armor;
     }
 
     public void setArmor(int armor) {
@@ -42,6 +42,4 @@ public class Adventurer extends Creature{
     }
 
 
-
-    
 }

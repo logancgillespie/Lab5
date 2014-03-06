@@ -1,9 +1,10 @@
 /**
  * An enumeration representing swords we might encounter in a fantasy type
  * game.
- * @author Dr. William Kreahling
  *
- * No other comments on purpose.
+ * @author Dr. William Kreahling
+ *         <p/>
+ *         No other comments on purpose.
  */
 public enum Sword {
 
@@ -13,8 +14,8 @@ public enum Sword {
     BUTTERFLY("Butterfly", 20),
     RAPIER("Rapier", 32);
 
-    private final String    name;
-    private final int       damage;
+    private final String name;
+    private final int damage;
 
     private Sword(String name, int damage) {
         this.name = name;
@@ -23,6 +24,6 @@ public enum Sword {
 
     @Override
     public String toString() {
-        return name + " sword, " + " damage: " + damage;
+        return name + " sword, " + " damage: " + damage + ".";
     }
 }

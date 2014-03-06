@@ -1,5 +1,6 @@
 /**
- * Created by LoganGillespie on 3/6/14.
+ * @author Logan Gillespie and Matt Anger
+ * @version 1.1
  */
 public class Fighter extends Adventurer {
     Sword sw;
@@ -25,8 +26,8 @@ public class Fighter extends Adventurer {
     @Override
     public String toString() {
         String s = "";
-        s += "Fighter name " + name + " points " + points + " race " + race + " level " + level + " armor" +
-                +armor + " sword " + sw;
+        s += "Name = " + name + "," + " Hit points = " + points + "," + " armor Class = " + armor + "." +
+                "\n \t" + " sword = " + sw;
         return s;
     }
 }

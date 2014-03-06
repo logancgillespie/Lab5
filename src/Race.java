@@ -1,9 +1,10 @@
 /**
  * Enumeration representing the types of characters we might find in a fantasy
  * game.
- * @author  William Kreahling
  *
- * NO other comments on purpose
+ * @author William Kreahling
+ *         <p/>
+ *         NO other comments on purpose
  */
 public enum Race {
     HUMAN("Human"),
@@ -15,7 +16,7 @@ public enum Race {
 
     private final String race;
 
-    private Race (String race) {
+    private Race(String race) {
         this.race = race;
     }
 

@@ -1,5 +1,6 @@
 /**
- * Created by LoganGillespie on 3/5/14.
+ * @author Logan Gillespie and Matt Anger
+ * @version 1.1
  */
 public class Wizard extends Adventurer {
 
@@ -7,7 +8,7 @@ public class Wizard extends Adventurer {
     SpellBook sb;
 
 
-    public Wizard(){
+    public Wizard() {
         super(null, -1, null, -1, -1);
     }
 
@@ -38,8 +39,9 @@ public class Wizard extends Adventurer {
     @Override
     public String toString() {
         String s = "";
-        s += "Wizard name " + name + " points " + points + " race " + race + " level " + level + " armor" +
-                +armor + " spells " + sb;
+        s += "Name = " + name + "," + " points " + points + "," + " level " + level + "," +
+                "" + " armor Class = " + armor + ".";
+        s += "\n \t Spells: " + "\n" + sb;
         return s;
     }
 }
