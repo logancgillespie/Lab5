@@ -9,10 +9,12 @@ public class SpellBook implements Comparable<SpellBook> {
 
     @Override
     public int compareTo(SpellBook o) {
+        int r;
         if (o.numSpells == numSpells) {
-            return 1;
+            r = 1;
         }
-        return 0;
+        r = 0;
+        return r;
 
     }
 
